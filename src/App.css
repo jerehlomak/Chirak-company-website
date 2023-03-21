@@ -1,0 +1,120 @@
+#particles-js {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#top-content {
+  background-image: url('./assets/images/bg/header.svg');
+  background-position: bottom 10px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+@media screen and (max-width: 1024px) {
+  #top-content {
+    height: 170vh;
+  }
+}
+
+@media screen and (max-width: 913px) {
+  #top-content {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #top-content {
+    height: 125vh;
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  #top-content {
+    height: 200vh;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  #top-content {
+    height: 200vh;
+  }
+
+  .hero {
+    margin-bottom: 10rem;
+  }
+}
+
+
+#footer {
+  background-image: url('./assets/images/img/footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(16, 168, 233, 0.1);
+  /* height: 300vh; */
+}
+
+#main-footer {
+  background-image: url('./assets/images/bg/footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us {
+  background-color: #e5e5e5;
+}
+
+#banner {
+  background-image: url('./assets/images/img/banner.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 200px right 0px top 0px;
+}
+
+
+@media screen and (max-width: 675px) {
+  #banner {
+    background-image: url('./assets/images/img/banner.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
+    background-position: top 0px;
+  }
+}
+
+#banner1 {
+  background-image: url('./assets/images/img/banner.svg');
+  background-repeat: no-repeat;
+  background-size: contain 70%;
+  background-position: bottom;
+  width: 100%;
+}
+
+/* Home Team */
+.muted-desc {
+  display: block;
+  color: #333;
+}
+
+.job_name, .muted-desc {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.muted-desc {
+  font-style: italic;
+}
+
+.job_name {
+  font-size: 14px;
+}
+
+.job_con {
+  color: #333;
+}
+
+.job_p {
+  color: rgb(87, 84, 84);
+}
